@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body {
+    background-color: rgb(248, 241, 241);
+}
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 50px 0;
+   }
+    div {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 360px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   }
+   img {
+    width: 120px;
+    height: 180px;
+    border-radius: 50%;
+   }
+   div h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: serif;
+   }
+    p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+   }
+   .testimonial1 {
+    background: rgb(125, 125, 248);
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left:10px;
+    padding-left: 10px;
+   }
+   .testimonial2 {
+    background: rgb(248, 164, 125);
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left:10px;
+    padding-left: 10px;
+   }
+   .testimonial3 {
+    background: rgb(56, 163, 172);
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left:10px;
+    padding-left: 10px;
+   }
+   .testimonial4 {
+    background: rgb(232, 112, 91);
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left:10px;
+    padding-left: 10px;
+   }
+   .testimonial5 {
+    background: rgb(125, 125, 248);
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left:10px;
+    padding-left: 10px;
+   }
+   .testimonial6 {
+    background: rgb(248, 125, 176);
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left:10px;
+    padding-left: 10px;
+   }
+   h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(41, 65, 202);
+   }
+   footer {
+    font-size: xx-small;
+    text-align: center;
+    color: rgba(51, 0, 255, 0.769);
+   }
